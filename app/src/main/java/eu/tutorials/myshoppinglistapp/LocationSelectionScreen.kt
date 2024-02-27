@@ -34,7 +34,6 @@ fun LocationSelectionScreen(
     * So we want to basically say, hey, Google Maps, zoom in to that area where the user is right now,
     * I don't want to see California or whatever, like the default where we are.
     * I want to see wherever the user is at a certain zoom state or zoom level.
-    *
     * */
     var cameraPositionState = rememberCameraPositionState {
         // we are setting latitude and longitude (userLocation.value) and then the Zoom level (10f)
